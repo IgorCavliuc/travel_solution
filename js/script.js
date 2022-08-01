@@ -1,8 +1,5 @@
-const btn = document.querySelector("menu");
-const header = document.querySelector("header__content");
+const header = document.getElementById("header__content");
 
-$(function () {
-  $(".menu").click(function () {
-    $(".header__content").toggleClass("active");
-  });
-});
+function toggleClass() {
+  header.classList.toggle("active")
+}
