@@ -24,6 +24,9 @@ body{
             padding: 5px 40px;
             margin: 0 40px 0 0;  
 }
+.item-active{
+    border-bottom: 1px solid #004B6F;
+}
 
 
 
@@ -100,6 +103,11 @@ body{
 
 		&__item {
             margin: 0 20px;
+            width: auto;
+            transition:2s;
+            &:hover{
+                border-bottom: 1px solid #004B6F;
+            }
             
 		}
 
@@ -644,10 +652,7 @@ body{
         margin-top: 10px;
     
     
-    &img{
-        
-        
-    }
+   
 }
     .main-info{
         height: auto;
